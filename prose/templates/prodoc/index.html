@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+{% extends 'prodoc/base.html' %}
+
+{% block body %}
+	{% if all_prose %}
+		<h3>Here are all of your prose</h3>
+		<ul>
+			{% for prodoc in all_prose %}
+			<li>{{ prodoc.title }}</li>
+			{% endfor %}
+		</ul>
+	{% else %}
+		<h3>You don't have any prose. Create a new prose!</h3>
+	{% endif %}
+{% endblock %}
+</html>

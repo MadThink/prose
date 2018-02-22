@@ -1,0 +1,12 @@
+body{
+	backround: white url("images/paperbackground.jpg");
+}
+
+.navbar{
+	border-radius: 0;
+}
+
+.navbar-brand{
+font-family: 'Cinzel Decorative', cursive;
+font-size: 30pt;
+}

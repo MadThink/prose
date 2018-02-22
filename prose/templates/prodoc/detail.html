@@ -1,0 +1,10 @@
+{% extends 'prodoc/base.html' %}
+{% block title %} Prose Details {% endblock %}
+
+{% block body %}
+	<img src="{{ prodoc.cover }}">
+
+	<h1>{{ prodoc.title }}</h1>
+	<br><br>
+	<h3>{{ prodoc.content }}</h3>
+{% endblock %}
